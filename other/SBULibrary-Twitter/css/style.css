@@ -1,0 +1,84 @@
+/*
+	Totem Ticker Stylesheet
+	Zach Dunn / Build Internet (buildinternet.com)
+	Winter 2011
+*/
+
+
+*{margin:0; padding:0;}
+
+body{
+	font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background-color: #7B0002;
+	background-repeat: no-repeat;
+	background-image: url(../SBU_RayBKG_red3_HORZ_RGB.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+h1.logo{
+	overflow: hidden;
+	height: 70px;
+	margin: auto;
+	color: #fff;
+	font-family: 'Effra';
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 0.5px #000000;
+}
+
+/* Top Banner */
+#banner .clear{ height:0px; width:100%; overflow:hidden; visibility: hidden; display:block; }
+#banner{ z-index:100; background: #1a1a1a; padding:10px 0; width:100%; display:block; }
+	#banner.transparent{ background-color:transparent; }
+	#banner.above{ position:absolute; top:0; left:0; }
+#banner .logo-zone{ height:auto; clear:left; float:left;overflow:hidden;}
+			#banner h1#logo-link{height:57px; width:160px; margin:24px 12px; background: url('../images/build-internet-logo-shadow.png') no-repeat top left;}
+				#banner h1#logo-link a{text-indent:-9999px; display:block; height:100%; width:100%; text-decoration:none;}
+
+#wrapper{
+	margin: 0 auto;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	padding-top: 40px;
+}
+
+	p{color:#fff; padding:10px 0; text-align:center;}
+		.nav{}
+	
+	#wrapper a, #footer a{color:#e8914c; text-decoration:none; border-bottom:1px dotted #e8914c;}
+		#wrapper a:hover, #footer a:hover{color:#eab209; border-bottom:1px dotted #eab209;}
+
+
+#footer{margin-top:20px; text-transform:uppercase; font-size:11px; letter-spacing:1px;}
+	#footer p{color:rgba(255,255,255,.5);}
+/*
+
+	This is the only semi-important stuff for plugin installation
+	It's just an example, so customize away!
+*/
+
+.timeline-TweetList{
+	overflow: hidden;
+	margin: auto;
+	padding: 0;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	width: 80%;
+}
+
+.timeline-TweetList li{
+	padding:35px 20px;
+	display:block;
+	background:#efefef;
+	color:#333;
+	border-bottom:1px solid #ddd;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	font-family: Helvetica Neue, times, serif;
+}

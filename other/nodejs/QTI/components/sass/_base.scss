@@ -1,0 +1,43 @@
+
+/* CSS Reset */
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+/* Overwrite the default tags */
+body {font-family: 'Roboto', sans-serif;}
+
+header {position: fixed; top: 0px; background-color: $purple; z-index: 1000; width: 100%; padding: 0px 15%;}
+
+footer
+{
+	/*background: linear-gradient(to top, black, #463E3E);*/
+    background-color: $darkblue;
+	color: white;
+	bottom: 0;
+	padding: 0 0 10px;
+}
+
+main {margin-top: 80px; font-size: 18px;}
+
+section {width: 100%;}
+
+h1, h2, h3, h4, h5 {padding: 10px 0; font-family: 'Lora';}
+h1 {font-size: 34px;} h2 {font-size: 30px;} h3 {font-size: 28px;} h4 {font-size: 26px;} h5 {font-size: 24px;}
+
+p {padding: 10px 0; line-height: 1.5;}
+ul {line-height: 1.5;}
+
+img {margin-left: 5px; margin-right: 5px;}
+
+a {cursor: pointer;}
+
+address {font-style: normal; overflow: hidden; padding: 10px 0; line-height: 1.5; display: inline-block;}
+blockquote, cite {padding-left: 5px; padding-right: 5px; font-style: normal; overflow: hidden; transition: 0.5s;}
+section blockquote:hover 
+{
+	transform: translateY(-5px); background-color: #f1f1f1;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5), 0 2px 10px 0 rgba(0,0,0,0.5);
+	border-radius: 6px;
+}
+cite {color: #999;}
+figcaption {text-align: left;} .gray_caption {background-color: #E7E7E7;} 
+

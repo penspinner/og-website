@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css?family=Lora|Roboto';
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {width: 215.9mm; height: 279.4mm; margin: 0 auto; display: flex; font-size: 15px; line-height: 1.4; font-family: 'Roboto';}
+a { cursor: pointer; color: black; }
+
+.me
+{
+	padding: 10px;
+	width: 30%;
+	background-color: #f9f9f9;
+	height: 100%;
+
+}
+
+.me > div {padding: 10px;}
+
+h1, h2 {padding-top: 10px; padding-bottom: 10px;}
+h1, h2, h3 {font-family: 'Times New Roman'}
+
+.logo, .logo > img { text-align: center; margin: 0 auto; }
+.logo > img { width: 80%; height: 80%; }
+
+.media > div { padding-bottom: 5px; }
+.media a, .media span { margin-left: 10px; color: black; }
+
+
+.icon { vertical-align: middle; width: 35px; height: 35px; }
+
+.skills > div {padding-bottom: 10px;}
+
+.my_content
+{
+	background-color: #f1f1f1;
+	padding: 30px;
+	width: 70%;
+	height: 100%;
+}
+
+.my_content > div
+{
+	background-color: #f9f9f9;
+	padding: 10px;
+	margin: 35px 0;
+}
+
+.my_content > div:first-of-type { margin-top: 0; }
+
+.programming > div, .frameworks > div, .operating_systems > div, .foreign_language > div, 
+.education > div, .courses > div, .projects > div, .experience > div { display: flex; }
+.programming > div > ul, .frameworks > div > ul, 
+.operating_systems > div > ul, .foreign_language > div > ul { list-style-type: none; width: 50%; }
+.projects > div { padding-bottom: 10px;}
+.projects > div:last-of-type { padding-bottom: 0; }
+
+.date { width: 20%; text-align: center; padding-top: 2px; }
+
+.education_description, .project_description, .job_description { width: 80%; padding-left: 10px; }
+
+.courses h2, .projects h2, .experience h2 {padding-top: 0;}
+.courses ul, .projects ul, .experience ul {list-style-type: circle; padding: 0 17px;}
+.courses ul {padding: 0 10px;}
+.courses > div { padding: 0 10px; }
+.courses > div > div { width: 33.33%; }

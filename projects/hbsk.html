@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Handball Scores</title>
+
+	<link rel="icon" href="/images/Rubiks-cube-256.png">
+	<link rel="stylesheet" type="text/css" href="/css/MainStyle.css">
+	<link rel="stylesheet" type="text/css" href="/css/HBScoreStyle.css">
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://rawgit.com/pisi/Longclick/master/jquery.longclick-min.js"></script>
+	<script src="/js/HBScoreCanvas.js"></script>
+	<script src="/js/HBScore.js"></script>
+</head>
+<body>
+	<header>
+		<h1>
+			<canvas id="canvas1"></canvas>
+			Handball Scorekeeper
+			<canvas id="canvas2"></canvas>
+		</h1>
+	</header>
+
+	<!-- Main content of the home page -->
+	<main id="content">
+		<div class="sidebar">
+			<b>Matches</b><hr style="margin-bottom: 0px;">
+			<ul id="stored-scores" ></ul>
+		</div>
+		<div id="" class="scorer">
+			<div><button id="new_game">New Game</button><div style="clear: both;"></div></div><br>
+			<div class="half">
+				<label for="t1Names">Team 1</label>
+				<input id="t1Names" type="text" placeholder="Player name(s)" name="p1">
+				<br><br>
+				<div>Score: <span id="t1Score">0</span></div>
+				<div>Timeouts Used: <span id="t1Timeout">0</span></div>
+				<br><br>
+				<button id="t1Inc">+</button>
+				<button id="t1Dec">-</button><br><br>
+				<button id="t1UseTimeout" title="Use Timeout">Timeout</button>
+			</div><!--
+	 --><div class="half">
+				<label for="t2Names">Team 2</label>
+				<input id="t2Names" type="text" placeholder="Player name(s)" name="p2">
+				<br><br>
+				<div>Score: <span id="t2Score">0</span></div>
+				<div>Timeouts Used: <span id="t2Timeout">0</span></div>
+				<br><br>
+				<button id="t2Inc">+</button>
+				<button id="t2Dec">-</button><br><br>
+				<button id="t2UseTimeout" title="Use Timeout">Timeout</button>
+			</div>
+			<br><br>
+			<textarea id="description" placeholder="Description"></textarea><br><br>
+<!-- 			<button id="reset_game" style="display: none;">Reset</button> -->
+			<button id="save_game">Save</button>
+			<button id="delete_game" style="display: none;">Delete Game</button>
+			<div class="popup" data-popup="popup-1">
+				<div class="popup-inner">
+					<h2 id="timeout_header"></h2>
+					<h1 id="time"></h1>
+					<br><br>
+					<p><button data-popup-close="popup-1">Close</button></p>
+					<a class="popup-close" data-popup-close="popup-1">x</a>
+				</div>
+			</div>
+    </div>
+	</main>
+	
+	<footer>
+		<p>Web app created by Steven Liao.</p>
+	</footer>
+</body>
+</html>

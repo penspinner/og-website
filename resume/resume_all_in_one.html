@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Steven Liao is a computer science graduate from Stony Brook University.">
+	<meta name="keywords" content="Steven Liao, Stony Brook University, software engineer, 
+																 web developer, software developer, New York City">
+	<meta name="author" content="Steven Liao">
+	<title>Steven Liao Resume</title>
+
+    <style>
+        @import 'https://fonts.googleapis.com/css?family=Lora|Roboto';
+
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+
+        body {width: 215.9mm; height: 279.4mm; margin: 0 auto; display: flex; font-size: 15px; line-height: 1.4; font-family: 'Roboto';}
+        a { cursor: pointer; color: black; }
+
+        .me
+        {
+            padding: 10px;
+            width: 30%;
+            background-color: #f9f9f9;
+            height: 100%;
+
+        }
+
+        .me > div {padding: 10px;}
+
+        h1, h2 {padding-top: 10px; padding-bottom: 10px;}
+        h1, h2, h3 {font-family: 'Times New Roman'}
+
+        .logo, .logo > img
+        {
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        .logo > svg { width: 80%; height: 80%; }
+
+        .media > div { padding-bottom: 5px; }
+        .media a, .media span { margin-left: 10px; color: black; }
+
+
+        .icon { vertical-align: middle; width: 35px; height: 35px; }
+
+        .skills > div {padding-bottom: 10px;}
+
+        .my_content
+        {
+            background-color: #f1f1f1;
+            padding: 30px;
+            width: 70%;
+            height: 100%;
+        }
+
+        .my_content > div
+        {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin: 22px 0;
+        }
+
+        .my_content > div:first-of-type { margin-top: 0; }
+
+        .programming > div, .frameworks > div, .operating_systems > div, .foreign_language > div, 
+        .education > div, .courses > div, .projects > div, .experience > div { display: flex; }
+        .programming > div > ul, .frameworks > div > ul, 
+        .operating_systems > div > ul, .foreign_language > div > ul { list-style-type: none; width: 50%; }
+        .projects > div { padding-bottom: 10px;}
+        .projects > div:last-of-type { padding-bottom: 0; }
+
+        .date { width: 20%; text-align: center; padding-top: 2px; }
+
+        .education_description, .project_description, .job_description { width: 80%; padding-left: 10px; }
+
+        .courses h2, .projects h2, .experience h2 {padding-top: 0;}
+        .courses ul, .projects ul, .experience ul {list-style-type: circle; padding: 0 17px;}
+        .courses ul {padding: 0 10px;}
+        .courses > div { padding: 0 10px; }
+        .courses > div > div { width: 33.33%; }
+
+    </style>
+</head>
+<body>
+	<div class="me">
+		<div class="logo">	
+			<svg version="1.1" viewBox="0.0 0.0 100.0 100.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="p.0"><path d="m0 0l100.0 0l0 100.0l-100.0 0l0 -100.0z" clip-rule="nonzero"></path></clipPath><g clip-path="url(#p.0)"><path fill="#000000" fill-opacity="0.0" d="m0 0l100.0 0l0 100.0l-100.0 0z" fill-rule="nonzero"></path><path fill="#000000" d="m0.78740156 50.0l0 0c0 -27.179367 22.033232 -49.212597 49.212597 -49.212597l0 0c13.051994 0 25.569412 5.1848836 34.79856 14.414037c9.2291565 9.229152 14.41404 21.746567 14.41404 34.79856l0 0c0 27.179367 -22.033234 49.2126 -49.2126 49.2126l0 0c-27.179367 0 -49.212597 -22.033234 -49.212597 -49.2126z" fill-rule="nonzero"></path><path stroke="#000000" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m0.78740156 50.0l0 0c0 -27.179367 22.033232 -49.212597 49.212597 -49.212597l0 0c13.051994 0 25.569412 5.1848836 34.79856 14.414037c9.2291565 9.229152 14.41404 21.746567 14.41404 34.79856l0 0c0 27.179367 -22.033234 49.2126 -49.2126 49.2126l0 0c-27.179367 0 -49.212597 -22.033234 -49.212597 -49.2126z" fill-rule="nonzero"></path><path fill="#000000" fill-opacity="0.0" d="m0.78740156 0.78740156l98.4252 0l0 98.4252l-98.4252 0z" fill-rule="nonzero"></path><path fill="#f9f9f9" d="m13.734373 56.508656l5.71875 -0.5q0.40625 3.4375 1.890625 5.640625q1.484375 2.203125 4.609375 3.5624962q3.125 1.359375 7.031252 1.359375q3.46875 0 6.125 -1.03125q2.65625 -1.03125 3.953125 -2.8281212q1.296875 -1.796875 1.296875 -3.921875q0 -2.15625 -1.25 -3.765625q-1.25 -1.609375 -4.125 -2.703125q-1.84375 -0.71875 -8.156252 -2.234375q-6.3125 -1.515625 -8.84375 -2.859375q-3.28125 -1.71875 -4.890625 -4.265625q-1.609375 -2.546875 -1.609375 -5.703125q0 -3.46875 1.96875 -6.484377q1.96875 -3.015625 5.75 -4.578125q3.78125 -1.5625 8.40625 -1.5625q5.093752 0 8.984377 1.640625q3.890625 1.640625 5.984375 4.828125q2.09375 3.187502 2.25 7.218752l-5.8125 0.4375q-0.46875 -4.34375 -3.171875 -6.5625q-2.703125 -2.218752 -7.984377 -2.218752q-5.5 0 -8.015625 2.015625q-2.515625 2.015627 -2.515625 4.859377q0 2.46875 1.78125 4.0625q1.75 1.59375 9.140627 3.265625q7.390625 1.671875 10.140625 2.921875q4.0 1.84375 5.90625 4.671875q1.90625 2.828125 1.90625 6.515625q0 3.65625 -2.09375 6.890621q-2.09375 3.234375 -6.015625 5.03125q-3.921875 1.796875 -8.828125 1.796875q-6.218752 0 -10.421877 -1.8125q-4.203125 -1.8125 -6.59375 -5.453125q-2.390625 -3.6406212 -2.515625 -8.234371zm44.5 14.718746l0 -45.8125l6.0625 0l0 40.40625l22.5625 0l0 5.40625l-28.625 0z" fill-rule="nonzero"></path></g></svg>
+			<h1>Steven Liao</h1>
+		</div>
+		<div class="media">
+			<div>
+				<svg class="icon" version="1.1" viewBox="0.0 0.0 100.0 100.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="p.0"><path d="m0 0l100.0 0l0 100.0l-100.0 0l0 -100.0z" clip-rule="nonzero"></path></clipPath><g clip-path="url(#p.0)"><path fill="#000000" fill-opacity="0.0" d="m0 0l100.0 0l0 100.0l-100.0 0z" fill-rule="nonzero"></path><path fill="#000000" d="m0.78740156 50.0l0 0c0 -27.179367 22.033232 -49.212597 49.212597 -49.212597l0 0c13.051994 0 25.569412 5.1848836 34.79856 14.414037c9.2291565 9.229152 14.41404 21.746567 14.41404 34.79856l0 0c0 27.179367 -22.033234 49.2126 -49.2126 49.2126l0 0c-27.179367 0 -49.212597 -22.033234 -49.212597 -49.2126z" fill-rule="nonzero"></path><path stroke="#000000" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m0.78740156 50.0l0 0c0 -27.179367 22.033232 -49.212597 49.212597 -49.212597l0 0c13.051994 0 25.569412 5.1848836 34.79856 14.414037c9.2291565 9.229152 14.41404 21.746567 14.41404 34.79856l0 0c0 27.179367 -22.033234 49.2126 -49.2126 49.2126l0 0c-27.179367 0 -49.212597 -22.033234 -49.212597 -49.2126z" fill-rule="nonzero"></path><path fill="#000000" fill-opacity="0.0" d="m0.78740156 0.78740156l98.4252 0l0 98.4252l-98.4252 0z" fill-rule="nonzero"></path><path fill="#f9f9f9" d="m13.734373 56.508656l5.71875 -0.5q0.40625 3.4375 1.890625 5.640625q1.484375 2.203125 4.609375 3.5624962q3.125 1.359375 7.031252 1.359375q3.46875 0 6.125 -1.03125q2.65625 -1.03125 3.953125 -2.8281212q1.296875 -1.796875 1.296875 -3.921875q0 -2.15625 -1.25 -3.765625q-1.25 -1.609375 -4.125 -2.703125q-1.84375 -0.71875 -8.156252 -2.234375q-6.3125 -1.515625 -8.84375 -2.859375q-3.28125 -1.71875 -4.890625 -4.265625q-1.609375 -2.546875 -1.609375 -5.703125q0 -3.46875 1.96875 -6.484377q1.96875 -3.015625 5.75 -4.578125q3.78125 -1.5625 8.40625 -1.5625q5.093752 0 8.984377 1.640625q3.890625 1.640625 5.984375 4.828125q2.09375 3.187502 2.25 7.218752l-5.8125 0.4375q-0.46875 -4.34375 -3.171875 -6.5625q-2.703125 -2.218752 -7.984377 -2.218752q-5.5 0 -8.015625 2.015625q-2.515625 2.015627 -2.515625 4.859377q0 2.46875 1.78125 4.0625q1.75 1.59375 9.140627 3.265625q7.390625 1.671875 10.140625 2.921875q4.0 1.84375 5.90625 4.671875q1.90625 2.828125 1.90625 6.515625q0 3.65625 -2.09375 6.890621q-2.09375 3.234375 -6.015625 5.03125q-3.921875 1.796875 -8.828125 1.796875q-6.218752 0 -10.421877 -1.8125q-4.203125 -1.8125 -6.59375 -5.453125q-2.390625 -3.6406212 -2.515625 -8.234371zm44.5 14.718746l0 -45.8125l6.0625 0l0 40.40625l22.5625 0l0 5.40625l-28.625 0z" fill-rule="nonzero"></path></g></svg>
+				<a href="http://stevenliao.tech" target="_blank">stevenliao.tech</a>
+			</div>
+			<div>
+				<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+    <path d="M25,1C11.8,1,1,11.8,1,25c0,10.2,6.4,18.9,15.3,22.4c0.9-0.2,1.7-1,1.7-2V41h-2.6c-1.9,0-3.5-0.9-4.3-2.3 c-0.2-0.4-0.4-0.9-0.6-1.4c-0.4-1.1-0.9-2.3-1.9-3C8.2,34,8,33.4,8.1,32.9c0.2-0.5,0.7-0.9,1.6-0.8c1,0.1,2.5,1.2,3.4,2.4 c0.8,1,1.4,1.6,2.6,1.6h0.3c0.9,0,3.1,0,3.5-0.4l0,0c0.3-0.4,0.5-0.7,0.8-1c-6-1.2-9.4-4.7-9.4-10c0-1.8,0.5-3.6,1.6-5.2 c-0.4-1.5-1.3-5.4,0.6-7.1l0.3-0.3h0.4c2.6,0,4.5,1.1,5.7,2c3.5-1.3,7.5-1.3,11,0c1.1-0.9,3-2,5.7-2h0.4l0.3,0.3 c1.9,1.8,1,5.6,0.6,7.1c1,1.6,1.6,3.4,1.6,5.2c0,5.3-3.4,8.8-9.3,10c1.5,1.6,2.3,4,2.3,5.9v4.9c0,1,0.7,1.8,1.7,2 C42.6,43.9,49,35.2,49,25C49,11.8,38.2,1,25,1z"/>
+</svg>
+				<a href="http://github.com/penspinner" target="_blank">github.com/penspinner</a>
+			</div>
+			<div>
+				<svg class="icon" version="1.1" viewBox="0.0 0.0 100.0 100.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="p.0"><path d="m0 0l100.0 0l0 100.0l-100.0 0l0 -100.0z" clip-rule="nonzero"></path></clipPath><g clip-path="url(#p.0)"><path fill="#000000" fill-opacity="0.0" d="m0 0l100.0 0l0 100.0l-100.0 0z" fill-rule="nonzero"></path><path fill="#000000" d="m0.78740156 50.0l0 0c0 -27.179367 22.033232 -49.212597 49.212597 -49.212597l0 0c13.051994 0 25.569412 5.1848836 34.79856 14.414037c9.2291565 9.229152 14.41404 21.746567 14.41404 34.79856l0 0c0 27.179367 -22.033234 49.2126 -49.2126 49.2126l0 0c-27.179367 0 -49.212597 -22.033234 -49.212597 -49.2126z" fill-rule="nonzero"></path><path stroke="#000000" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m0.78740156 50.0l0 0c0 -27.179367 22.033232 -49.212597 49.212597 -49.212597l0 0c13.051994 0 25.569412 5.1848836 34.79856 14.414037c9.2291565 9.229152 14.41404 21.746567 14.41404 34.79856l0 0c0 27.179367 -22.033234 49.2126 -49.2126 49.2126l0 0c-27.179367 0 -49.212597 -22.033234 -49.212597 -49.2126z" fill-rule="nonzero"></path><path fill="#000000" fill-opacity="0.0" d="m0.78740156 -3.9186351l98.4252 0l0 98.42519l-98.4252 0z" fill-rule="nonzero"></path><path fill="#f9f9f9" d="m53.796875 61.427616q-2.03125 2.34375 -4.546875 3.7656288q-2.515625 1.421875 -5.046875 1.421875q-2.78125 0 -5.40625 -1.625q-2.625 -1.6250038 -4.265625 -5.000004q-1.640625 -3.375 -1.640625 -7.40625q0 -4.96875 2.546875 -9.953125q2.546875 -4.984375 6.328125 -7.484375q3.78125 -2.5 7.34375 -2.5q2.71875 0 5.1875 1.421875q2.46875 1.421875 4.25 4.328125l1.0625 -4.84375l5.59375 0l-4.5 20.96875q-0.9375 4.375 -0.9375 4.84375q0 0.84375 0.640625 1.453125q0.640625 0.609375 1.546875 0.609375q1.65625 0 4.34375 -1.90625q3.5625 -2.5 5.640625 -6.703125q2.078125 -4.203125 2.078125 -8.671875q0 -5.21875 -2.671875 -9.75q-2.671875 -4.531248 -7.96875 -7.249998q-5.296875 -2.71875 -11.703125 -2.71875q-7.3125 0 -13.359375 3.421875q-6.046875 3.421875 -9.375002 9.812498q-3.328125 6.390625 -3.328125 13.703125q0 7.65625 3.328125 13.187504q3.328127 5.53125 9.625002 8.171875q6.296875 2.640625 13.953125 2.640625q8.1875 0 13.71875 -2.75q5.53125 -2.75 8.28125 -6.6875l5.65625 0q-1.59375 3.28125 -5.46875 6.6875q-3.875 3.40625 -9.21875 5.390625q-5.34375 1.984375 -12.875 1.984375q-6.9375 0 -12.796875 -1.78125q-5.859375 -1.78125 -9.984377 -5.359375q-4.125 -3.578125 -6.21875 -8.234375q-2.625 -5.906254 -2.625 -12.750004q0 -7.625 3.125 -14.53125q3.8125 -8.468748 10.828127 -12.968748q7.015625 -4.5 17.015625 -4.5q7.75 0 13.921875 3.171875q6.171875 3.171875 9.734375 9.453123q3.03125 5.40625 3.03125 11.75q0 9.0625 -6.375 16.09375q-5.6875 6.312504 -12.4375 6.312504q-2.15625 0 -3.484375 -0.65625q-1.328125 -0.65625 -1.953125 -1.875q-0.40625 -0.7812538 -0.59375 -2.6875038zm-15.125 -8.46875q0 4.28125 2.03125 6.65625q2.03125 2.375 4.65625 2.375q1.75 0 3.6875 -1.046875q1.9375 -1.046875 3.703125 -3.109375q1.765625 -2.0625 2.890625 -5.234375q1.125 -3.171875 1.125 -6.359375q0 -4.25 -2.109375 -6.59375q-2.109375 -2.34375 -5.140625 -2.34375q-2.0 0 -3.765625 1.015625q-1.765625 1.015625 -3.421875 3.265625q-1.65625 2.25 -2.65625 5.46875q-1.0 3.21875 -1.0 5.90625z" fill-rule="nonzero"></path></g></svg>
+				<span>stvnliao@yahoo.com</span>
+			</div>
+			<div>
+				<svg class="icon" version="1.1" viewBox="0.0 0.0 100.0 100.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="p.0"><path d="m0 0l100.0 0l0 100.0l-100.0 0l0 -100.0z" clip-rule="nonzero"></path></clipPath><g clip-path="url(#p.0)"><path fill="#000000" fill-opacity="0.0" d="m0 0l100.0 0l0 100.0l-100.0 0z" fill-rule="nonzero"></path><path fill="#000000" d="m0.78740156 50.0l0 0c0 -27.179367 22.033232 -49.212597 49.212597 -49.212597l0 0c13.051994 0 25.569412 5.1848836 34.79856 14.414037c9.2291565 9.229152 14.41404 21.746567 14.41404 34.79856l0 0c0 27.179367 -22.033234 49.2126 -49.2126 49.2126l0 0c-27.179367 0 -49.212597 -22.033234 -49.212597 -49.2126z" fill-rule="nonzero"></path><path stroke="#000000" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="butt" d="m0.78740156 50.0l0 0c0 -27.179367 22.033232 -49.212597 49.212597 -49.212597l0 0c13.051994 0 25.569412 5.1848836 34.79856 14.414037c9.2291565 9.229152 14.41404 21.746567 14.41404 34.79856l0 0c0 27.179367 -22.033234 49.2126 -49.2126 49.2126l0 0c-27.179367 0 -49.212597 -22.033234 -49.212597 -49.2126z" fill-rule="nonzero"></path><path fill="#000000" fill-opacity="0.0" d="m10.159824 35.266747l25.106922 -25.106922l54.573463 54.57346l-25.106926 25.106926z" fill-rule="nonzero"></path><g transform="matrix(0.14856167979002624 -0.14856167979002624 0.1146501312335958 0.1146501312335958 10.159824409448818 35.26674776902887)"><clipPath id="p.1"><path d="m4.2632564E-14 -2.842171E-14l169.0 0l0 476.0l-169.0 0z" clip-rule="nonzero"></path></clipPath><image clip-path="url(#p.1)" fill="#000" width="169.0" height="476.0" x="0.0" y="0.0" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"></image></g></g></svg>
+				<span>646-771-0843</span>
+			</div>
+		</div>
+		<div class="skills">
+			<div class="programming">
+				<h2>Programming Skills</h2>
+				<div class="languages">
+					<ul>
+						<li>Java</li>
+						<li>JavaScript</li>
+						<li>PHP</li>
+						<li>C++</li>
+						<li>Objective-C</li>
+						<li>MySQL</li>
+						<li>Python</li>
+					</ul>
+<!-- 					<ul>
+						<li>3 years</li>
+						<li>1 year</li>
+						<li>&lang;1 year</li>
+						<li>&lang;1 year</li>
+						<li></li>
+						<li></li>
+					</ul> -->
+				</div>
+			</div>
+<!-- 			<div class="frameworks">
+				<h2>Frameworks</h2>
+				<div class="framework">
+					<ul>
+						<li>Phaser</li>
+						<li>Angular</li>
+						<li>React</li>
+					</ul>
+				</div>
+			</div> -->
+			<div class="operating_systems">
+				<h2>Operating Systems</h2>
+				<div class="os">
+					<ul>
+						<li>Mac OS</li>
+						<li>Windows</li>
+						<li>Linux Ubuntu</li>
+					</ul>
+				</div>
+			</div>
+			<div class="foreign_language">
+				<h2>Foreign Language</h2>
+				<div class="language">
+					<ul>
+						<li>Cantonese</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="my_content">
+		<div class="education">
+			<h2>Education</h2>
+			<div class="university">
+				<div class="date">
+						<span>2012 - 2016</span>
+				</div>
+				<div class="education_description">
+					<h3>Stony Brook University | Stony Brook, New York</h3>
+					Bachelor of Science in Computer Science
+				</div>
+			</div>
+		</div>
+		<div class="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<div class="date">
+					<span>Summer 2016</span>
+				</div>
+				<div class="project_description">
+					<h3><a href="http://stevenliao.tech/~108607000/final" target="_blank">QTI Website Redesign</a></h3>
+					<ul>
+						<li>Redesigned Quarterhorse Technology's website making it viewport responsive and adaptive.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="project">
+				<div class="date">
+					<span>June 2016</span>
+				</div>
+				<div class="project_description">
+					<h3><a href="http://stevenliao.tech/hb" target="_blank">Handball Scorekeeper Web App</a></h3>
+					<ul>
+						<li>Implemented a web app that helps keep track of handball scores using HTML, CSS, &amp; JQuery JavaScript.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="project">
+				<div class="date">
+					<span>Spring 2016</span>
+				</div>
+				<div class="project_description">
+					<h3><a href="http://digital-conceptions-6.appspot.com" target="_blank">Digital Conceptions</a></h3>
+					<ul>
+						<li>Worked with a team of 3 to create a website to read and create comics using JSP, JavaScript, Java, and Google App
+							Engine.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="project">
+				<div class="date">
+					<span>Spring 2016</span>
+				</div>
+				<div class="project_description">
+					<h3><a href="https://bitbucket.org/Vblae/stevenstocks/commits/all" target="_blank">Steven Stocks</a></h3>
+					<ul>
+						<li>Collaborated with 2 others to implement a web application designed to simulate a stock trading system using JSP,
+							JavaScript, Java, and MySQL.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="experience">
+			<h2>Experience</h2>
+			<div class="job">
+				<div class="date">
+					<span>2015 - 2016</span>
+				</div>
+				<div class="job_description">
+					<h3>Library Information Technology Student Worker</h3>
+					<i>Stony Brook University</i>
+					<ul>
+						<li>Successfully synchronized embedded Twitter feed with Totem Ticker JQuery plugin for digital signage.</li>
+						<li>Set up computers for new workers, and troubleshoot computers and networks.</li>
+						<li>Photograph and film library events for recordkeeping and public display.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="courses">
+			<h2>Courses</h2>
+			<div>
+				<ul>
+					<li>User Interface Development</li>
+					<li>Software Engineering</li>
+					<li>Database Systems</li>
+				</ul>
+				<ul>
+					<li>Analysis of Algorithms</li>
+					<li>Computer Graphics</li>
+					<li>Computer Music</li>
+				</ul>
+				<ul>
+					<li>Mobile Apps Development (iOS)</li>
+					<li>Computer Architecture</li>
+					<li>Systems Level Programming</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

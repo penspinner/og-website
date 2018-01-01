@@ -1,0 +1,29 @@
+.section
+{
+	
+}
+
+.right
+{
+	float: right;
+}
+
+.btn
+{
+	border-radius: 10px;
+	border: none;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #28DC18;
+	cursor: pointer;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+.btn:focus {outline: 0;}
+
+.description
+{
+	width: 75%;
+	display: inline-block;
+	line-height: 2;
+}

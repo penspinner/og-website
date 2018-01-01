@@ -1,0 +1,114 @@
+* {box-sizing: border-box;}
+
+header {text-align: center;}
+
+footer
+{
+	border-top: 2px solid #e5e5e5;
+	clear: both;
+	/*padding: 20px;*/
+	text-align: center;
+	width: 100%;
+}
+
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font: 100% Verdana, Helvetica, sans-serif !important;
+	line-height: 1.5 !important;
+}
+
+header h1 a
+{
+  text-decoration: none;
+  color: black;
+}
+
+nav > ul
+{
+	list-style-type: none;
+	border-top: 2px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	margin: 0px;
+}
+
+nav ul li, nav ul ul li
+{
+	padding: 15px 0px 15px 0px;
+	// overflow: auto;
+	text-align: center;
+	// width: 100%;
+	background-color: white;
+	display: inline-block;
+	margin: 0px;
+	position: relative;
+}
+
+nav ul li a
+{
+	/*display: block;*/
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) 
+{
+    color: #28DC18;
+}
+
+nav ul li a.active
+{
+	background-color: #28DC18;
+	color: white;
+}
+
+nav ul li:hover > ul
+{
+	display: block;
+}
+nav ul ul
+{
+	display: none;
+	position: absolute;
+}
+nav ul ul li
+{
+	display: block;
+}
+
+#content
+{
+	background-color: #f5f5f5;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0px;
+}
+
+#aboutme img {max-width: 200px; border-radius: 4px; border: 2px solid darkblue; float: left; margin-right: 5px;}
+
+.pointer {cursor: pointer;}
+#myInterests {display: none;}
+
+.ext_link
+{
+	text-decoration: underline;
+	color: #28DC18;
+}
+
+.thick_line
+{
+	height: 4px;
+	background-color: black;
+}
+
+@media only screen and (max-width: 768px) 
+{
+	#content {padding-left: 10px; padding-right: 10px;}
+}

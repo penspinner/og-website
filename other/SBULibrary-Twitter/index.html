@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.totemticker.js"></script>
+
+</head>
+
+<body>
+
+	
+	<div id="wrapper">
+	
+		<h1 class="logo">Tweets from @SBULibrary</h1>
+	
+		<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/SBULibrary"></a>
+
+		<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+		<script type="text/javascript">
+			$(window).load(function()
+			{
+				setTimeout(function()
+				{
+					var iframeContents = $('iframe').contents();
+					iframeContents.find('.timeline-Header').remove();
+					iframeContents.find('.timeline-Footer').remove();
+					iframeContents.find('.timeline-LoadMore').remove();
+					iframeContents.find(".timeline-Widget").css({"margin": "0 auto"});
+					var tweetList = iframeContents.find('.timeline-TweetList');
+// 					tweetList.css({
+// 													"overflow": "hidden",
+// 													"margin": "0 auto",
+// 													"padding": "0",
+// 													"-webkit-box-shadow": "0 1px 3px rgba(0,0,0, .4)",
+// 												});
+// 					tweetList.children('li').css({
+// 																				"padding": "35px 20px",
+// 																				"display":"block",
+// 																				"background":"#efefef",
+// 																				"color":"#333",
+// 																				"border-bottom":"1px solid #ddd",
+// 																				"text-align":"center",
+// 																				"font-size":"25px",
+// 																				"font-weight":"bold",
+// 																				"font-family": "Helvetica Neue, times, serif"
+// 																			});
+					tweetList.totemticker({
+																	row_height: '200px',
+																	interval: 5000,
+																	mousestop	:	true,
+															 });
+				}, 300);
+			});
+		</script>
+	</div>
+
+</body>
+</html>

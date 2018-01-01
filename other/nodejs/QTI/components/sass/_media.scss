@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1119px)
+{
+	header {padding: 0 5%;} 
+	.pad {padding: 10px 5%;}
+	.pad2 {padding: 0;}
+}
+
+@media only screen and (max-width: 850px)
+{
+	header {padding: 0;}
+}
+
+@media only screen and (max-width: 771px)
+{
+	header {position: absolute;}
+	.navbar {display: none; float: none; text-align: center;}
+	.nav-list-item {display: block; border-top: 1px solid white;}
+	.mobile_nav {display: block;}
+	.sharing_sidebar {display: none;}
+	.copyright-footer {padding: 10px 5%;}
+}
+
+@media only screen and (max-width: 690px)
+{
+	.cycle-overlay {padding: 10px;}
+	.cycle-overlay h1 {font-size: 20px;}
+}
+
+/* Footer messes up */
+@media only screen and (max-width: 590px)
+{
+	h5 {font-size: 18px;}
+	main {font-size: 16px;}
+	.one_line {font-size: 16px; white-space: nowrap;}
+	.photo, .grid figure.partner_logo {width: 150px; height: 150px; margin-left: auto; margin-right: auto}
+	.photo {margin-left: 5px; margin-right: 5px;}
+	.footer-column {float: none; width: 100%; padding: 10px 0 10px;}
+	.copyright-footer, .pad {padding: 10px 15px 10px 15px;}
+	.descr, .descr_image, .descr_section {width: 100%;}
+	.pad2 {padding: 0;}
+	.testimonial_logo {float: none; height: auto;}
+	iframe {width: 100%; min-height: 200px; height: 200px;}
+}
+
+/* Mobile */
+@media only screen and (max-width: 390px)
+{
+	.cycle-overlay {padding: 5px; font-size: 16px;}
+	.cycle-overlay h1 {font-size: 18px; padding: 0px;}
+}

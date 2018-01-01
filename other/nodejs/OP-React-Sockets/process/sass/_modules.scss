@@ -1,0 +1,61 @@
+
+.chat-app
+{
+
+    #chatUsers
+    {
+        background-color: $deepblue;
+        color: $beige;
+        height: 500px;
+
+        h3 { color: $beige; }
+
+        .userList
+        {
+            list-style-type: none;
+        }
+    }
+
+    #chatMessages
+    {
+
+        position: relative;
+        background-color: white;
+        height: 460px;
+        max-height: 460px;
+        width: 100%;
+        overflow: auto;
+        padding: 15px;
+
+
+        & > div
+        {
+            padding: 10px;
+        }
+
+
+        .typing
+        {
+            font-size: 10px;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .username
+        {
+            font-size: 12px;
+        }
+    }
+
+
+    input[type=text], button[type=submit]
+    {
+        word-wrap: break-word;
+        word-break: break-all;
+        height: 40px;
+    }
+
+    textarea { resize: none; }
+}
+
+.nopad { padding: 0 !important; margin: 0 !important;}

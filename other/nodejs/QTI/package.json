@@ -1,0 +1,23 @@
+{
+  "name": "quarterhorse-technology",
+  "version": "1.0.0",
+  "description": "Website for Quarterhorse Technology",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp --production"
+  },
+  "author": "Steven Liao",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify-html-2": "^1.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7"
+  }
+}

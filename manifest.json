@@ -1,0 +1,17 @@
+{
+  "name": "Steven Liao",
+  "short_name": "Steven Liao",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#28DC18",
+  "background_color": "#111111",
+	"description": "This is Steven Liao's website.",
+	"lang": "en-US",
+  "icons": [
+    {
+      "src": "/images/Rubiks-cube-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
